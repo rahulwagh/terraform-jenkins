@@ -12,3 +12,5 @@ sudo apt-get update
 yes | sudo apt-get install jenkins
 sleep 30
 echo "Waiting for 30 seconds before installing the Terraform..."
+sudo chown -R jenkins:jenkins /home/ubuntu
+sudo chmod -R 755 /home/ubuntu
